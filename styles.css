@@ -1,0 +1,72 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  .edificio {
+margin-top: 70px;
+}
+
+.decoracion {
+
+width: 50%;
+height: 2px;
+background-color: rgb(231, 228, 228);
+margin: 0 auto;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.circulo {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+background-color: rgb(203, 207, 144);
+}
+ul {
+list-style: none;
+padding: 0;
+margin: 0;
+text-align: center;
+}
+
+nav {
+background-color: #ffffff;
+display: flex;
+justify-content: center;
+margin-top: auto;
+}
+nav ul {
+display: flex;
+padding: 5px;
+
+}
+nav li {
+margin-right: 2px;
+}
+nav a {
+text-decoration: none;
+color:  rgb(53, 52, 52);
+padding: 5px 10px;
+border-radius: 5px;
+}
+.letter-section {
+display: none;
+}
+
+.letter-section.active {
+display: block;
+text-align: center;
+}
+.letter-section li {
+margin-bottom: 50px;
+}
